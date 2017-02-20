@@ -10,10 +10,7 @@ The algorithm inputs the coordinates of the points in the point-set from a text 
 
 ------------------
 ## The codes file contains:
-1. PointsSet: class to store and manipulate a set of points. 
-
-2. ComparatorX: comparator to sort points according to x.
-
-3. ComparatorY: comparator to sort points according to y.
-
-4. ClosestPairTest: test driver to compute the pair of points.
+PointsSet ---- class to store and manipulate a set of points. 
+ComparatorX ---- comparator to sort points according to x.
+ComparatorY ---- comparator to sort points according to y.
+ClosestPairTest ---- test driver to compute the pair of points.
