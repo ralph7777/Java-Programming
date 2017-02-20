@@ -1,2 +1,2 @@
-# Java-Projects
-This repo contains projects I did with Java.
+# Java projects
+This repo contains projects I have completed with Java.
