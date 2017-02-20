@@ -1,6 +1,6 @@
 # Closest Pair
 
-This is the algorithm to compute the closest pair of points in a point-set. 
+This describes an algorithm to compute the closest pair of points in a point-set. 
 
 The algorithm inputs the coordinates of the points in the point-set from a text whose format matches the txt files uploaded, and output:
 
@@ -10,7 +10,6 @@ The algorithm inputs the coordinates of the points in the point-set from a text 
 
 ------------------
 ## The codes file
-
 1. PointsSet: class to store and manipulate a set of points. 
 
 2. ComparatorX: comparator to sort points according to x.
