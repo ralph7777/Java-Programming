@@ -2,7 +2,8 @@
 
 This is my personal implementation of Fraction Class.
 
-——————————
+————————————————————
+
 Noted that:
 
 1. The negative sign is always kept to the numerator, which means the denominator always greater than zero.
