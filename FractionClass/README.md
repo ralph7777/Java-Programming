@@ -10,4 +10,4 @@ Noted that:
 
 2. There is no common factor between numerator and denominator.
 
-3. See attach file to check the detail of Fraction class.
+3. See attach file to check all details of Fraction class.
