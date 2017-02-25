@@ -8,4 +8,4 @@ Checking Account class (extends BankAccount): A checking account usually has a l
 
 Saving Account class (extends BankAccount): A savings account can earn interest if the balance remains above or equal to the minimum balance.
 
-Account Demo: The test driver, simulates a bank with both checking and savings accounts.
+Account Demo: The test driver, simulates a bank account with both checking and savings accounts.
