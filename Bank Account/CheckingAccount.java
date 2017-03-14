@@ -1,9 +1,7 @@
-/**
-   Class of Checking Account (extends BankAccount).
-   A checking account usually has a limited number of 
-   free deposits and withdrawals.
-*/
-
+/** Class of Checking Account (extends BankAccount).
+  * A checking account usually has a limited number of 
+  * free deposits and withdrawals.
+  */
 public class CheckingAccount extends BankAccount
 {
 	private int withdrawals;
