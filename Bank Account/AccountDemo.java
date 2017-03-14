@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 /**
-   This is test driver for BankAccount.
-   Following program simulates a bank account with both checking and savings accounts.
+   Test driver for BankAccount.
+   It builds up a bank account with both checking and savings accounts.
 */
 
 public class AccountDemo{
