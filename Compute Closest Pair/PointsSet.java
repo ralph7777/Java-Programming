@@ -73,9 +73,10 @@ public class PointsSet {
 		//Algorithm:
 		//step1: input 2 array of pointsset, one is x-sorted px, one is y-sorted py
 		//       (in recursive call, keep upating px as the sublist of previous px)
-		//step2: divide px to halves [0,(n-1)/2],[(n+1)/2,n-1], compute the minDist of two sub-px px1, px2, store in minDist
-		//step3: iterate through py, for x in [midx-minD,midx+minD], compute the distance between it and following 7 points (if there is any)
-		//	     store the minimum distance in dist3
+		//step2: divide px to halves [0,(n-1)/2],[(n+1)/2,n-1], compute the minDist
+		//	 of two sub-px px1, px2, store in minDist.
+		//step3: iterate through py, for x in [midx-minD,midx+minD], compute the distance
+		//	 between it and following 7 points (if there is any), store the minimum distance in dist3
 		//step4: compare minDist and dist3, record two points with min dist as a,b
 		//step5: base case1--size of px=3, compute all dist, record two points with min dist as a,b
 		//       bast case2--size of px=2, record two points as a,b
