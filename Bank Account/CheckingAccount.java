@@ -1,5 +1,5 @@
 /**
-   Checking Account Class.(extends BankAccount)
+   Checking Account Class (extends BankAccount).
    A checking account usually has a limited number of 
    free deposits and withdrawals.
 */
