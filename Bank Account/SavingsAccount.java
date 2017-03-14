@@ -1,5 +1,5 @@
 /**
-   Saving Account Class. (extends BankAccount)
+   Class of Saving Account (extends BankAccount).
    A savings account can earn interest if the balance
    remains above or equal to the minimum balance.
 */
