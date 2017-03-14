@@ -17,6 +17,6 @@ GraphD ---- class to store and manipulate information of a connected graph.
 
 Info ---- built-up data structure to store pairs of vertex and weight value.
 
-InfoComparator ---- comparator for comparing two instance of Info Class based on the weight value.
+InfoComparator ---- comparator for comparing two instances of Info based on the weight value.
 
 TestDriver ---- test driver to run the algorithm and output results.
