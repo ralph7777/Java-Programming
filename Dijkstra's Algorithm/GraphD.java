@@ -26,7 +26,6 @@ public class GraphD {
 	private ArrayList<Boolean> flag = new ArrayList<Boolean>(countV);
 	private PriorityQueue<Info> heap;
 	
-	
 	/** constructor to create a graph using adjacent lists    
 	 * @param fname : input file name, like "Case1.txt"
 	 */
@@ -72,8 +71,8 @@ public class GraphD {
 //		}
 	}
 	
-	/** instance method getgraph, provide an access to the graph info
-	 *  @return the adjacent list for a graph
+	/** instance method getgraph: provide an access to the graph info
+	 *  @return the adjacent list of a graph
 	 */	
 	public ArrayList< ArrayList<Info> > getgraph() {
 		return graph;
@@ -152,10 +151,9 @@ public class GraphD {
 		}
 		
 	}
-	
 	//After running the algorithm, the distance list contains the minimum distance info,
 	//while the parent list contains the shortest path route info to any vertices. 
-	
+
 	/** instance method ShortestPath: compute the weight of shortest path to any vertex
 	 * @param dest: the termination point in graph
 	 * @return the sum of weight along a shortest path 
@@ -163,7 +161,6 @@ public class GraphD {
 	public int ShortestPath (Character dest) {
 		return distance.get(((int) dest)-65);
 	}
-	
 	
 	/** instance method Route: display the sequence of vertices on a shortest path.
 	 * @param source: the starting point in graph
