@@ -9,7 +9,7 @@ The algorithm inputs the coordinates of the points in the point-set from a text 
 (2) the distance between the two points in the closest pair.
 
 ------------------
-## The codes file contains:
+## The code filed contain:
 PointsSet ---- class to store and manipulate a set of points. 
 
 ComparatorX ---- comparator to sort points according to x.
