@@ -2,7 +2,6 @@
  *  A bank account has a balance and a mechanism for applying interest or fees at 
  *  the end of month.
  */
-
 public class BankAccount
 {
 	private double balance;
