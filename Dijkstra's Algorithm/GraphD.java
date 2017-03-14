@@ -62,7 +62,7 @@ public class GraphD {
 			graph.get(tailId).add(edge);
 		}
 		
-//		Test if the input is valid:
+//		Display inputs to see if the input is valid:
 //		for (int i=0; i<countV; i++) {
 //			int len=graph.get(i).size();
 //			for (int j=0; j<len; j++) {
