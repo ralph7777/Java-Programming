@@ -1,7 +1,7 @@
 /**
    The bank account class.
    A bank account has a balance and a mechanism for applying interest or fees at 
-   the end of the month.
+   the end of month.
 */
 
 public class BankAccount
