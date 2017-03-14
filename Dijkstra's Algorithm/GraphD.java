@@ -79,22 +79,22 @@ public class GraphD {
 		return graph;
 	}
 	
-	//The Dijsktra's Algorithm:
-	//step1: initialize parent, distance and flag:
-	//       set all parent to 'blank', flag to flase, distances to infinity
-	//		 except the starting point, set its distance to 0;
-	//step2: add all the vertex + distance pairs to heap;
-	//step3: while heap is not empty, poll the heap (which retrieves and removes the Min), 
-	//		 set its flag to true, then check all neighbors of the pop-out vertex v , 
-	//		 if any point's distance is greater than the the distance of v plus the weight
-	//		 of edge connecting them, update its distance with smaller one, 
-	//		 set its parent to v, also decrease its distance in heap.
-	//step4: iterate step 3 till the heap becomes empty.
-	
 	/** instance method RunDijkstra: run Dijkstra Algorithm on a graph
 	 * @param source: the chosen starting vertex in graph
 	 */
 	public void RunDijkstra(char source){
+		
+	//The Dijsktra's Algorithm:
+	//step1: initialize parent, distance and flag:
+	//       set all parent to 'blank', flag to flase, distances to infinity
+	//	 except the starting point, set its distance to 0;
+	//step2: add all the vertex + distance pairs to heap;
+	//step3: while heap is not empty, poll the heap (which retrieves and removes the Min), 
+	//	 set its flag to true, then check all neighbors of the pop-out vertex v , 
+	//	 if any point's distance is greater than the the distance of v plus the weight
+	//	 of edge connecting them, update its distance with smaller one, 
+	//	 set its parent to v, also decrease its distance in heap.
+	//step4: iterate step 3 till the heap becomes empty.
 		
 		//step1:
 		Comparator<Info> comparator=new InfoComparator();
