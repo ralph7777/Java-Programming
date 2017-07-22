@@ -4,7 +4,7 @@ This example shows the Javadoc and JUnit tests I create for specific classes in 
 
 Each of the 4 classes specified has JUnit tests created and complete Javadoc added to the original source code including class, field, and method comments.
 
-Classes include:
+The 4 classes are:
 
 1) Department
 
