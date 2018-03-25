@@ -1,2 +1,2 @@
 # Java projects
-Hey, how are you today? This repo has some small projects I did with Java.
+This repo contains some algorithms or projects I have implemented with Java.
